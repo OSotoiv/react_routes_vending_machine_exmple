@@ -6,6 +6,7 @@ import Chips from './Chips';
 import Soda from './Soda';
 import Cookies from './Cookies';
 import Nav from './Nav';
+import './Nav.css'
 
 function App() {
   return (

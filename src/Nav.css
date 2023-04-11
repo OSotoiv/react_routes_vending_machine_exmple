@@ -5,10 +5,9 @@ nav a {
 .home {
     background-image: url("/public/vending.jpg");
     background-size: cover;
-    /* adjust as needed */
     background-position: center center;
-    /* adjust as needed */
     background-repeat: no-repeat;
+    position: absolute;
     top: auto;
     left: 0;
     width: 100%;
@@ -20,9 +19,7 @@ nav a {
 .chips {
     background-image: url("/public/chips.jpg");
     background-size: cover;
-    /* adjust as needed */
     background-position: center center;
-    /* adjust as needed */
     background-repeat: no-repeat;
     position: absolute;
     top: auto;
@@ -36,10 +33,9 @@ nav a {
 .soda {
     background-image: url("/public/soda.jpg");
     background-size: cover;
-    /* adjust as needed */
     background-position: center center;
-    /* adjust as needed */
     background-repeat: no-repeat;
+    position: absolute;
     top: auto;
     left: 0;
     width: 100%;
@@ -52,10 +48,9 @@ nav a {
 
     background-image: url("/public/cookies.jpg");
     background-size: cover;
-    /* adjust as needed */
     background-position: center center;
-    /* adjust as needed */
     background-repeat: no-repeat;
+    position: absolute;
     top: auto;
     left: 0;
     width: 100%;
@@ -65,17 +60,17 @@ nav a {
 }
 
 .home h1 {
-    background-color: rgb(230, 199, 160);
+    background-color: rgba(230, 199, 160, 0.753);
 }
 
 .chips h1 {
-    background-color: rgba(81, 177, 177, 0.897);
+    background-color: rgba(81, 177, 177, 0.753);
 }
 
 .soda h1 {
-    background-color: rgb(73, 104, 161);
+    background-color: rgba(73, 104, 161, 0.76);
 }
 
 .cookies h1 {
-    background-color: rgb(218, 149, 85);
+    background-color: rgba(128, 48, 108, 0.753);
 }
